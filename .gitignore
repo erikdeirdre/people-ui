@@ -1,0 +1,70 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+# Only exists if Bazel was run
+/bazel-out
+/integration/bazel/bazel-*
+
+# dependencies
+/node_modules
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+.history/*
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+*.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+
+# Include when developing application packages.
+pubspec.lock
+.devcontainer/*
+!.devcontainer/README.md
+!.devcontainer/recommended-devcontainer.json
+!.devcontainer/recommended-Dockerfile
+*.swo
+modules/.settings
+modules/.vscode
+.vimrc
+.nvimrc
+.editorconfig
+
+# Don't check in secret files
+*secret.js
+
+
+# build-analytics
+.build-analytics
+
+# rollup-test output
+/modules/rollup-test/dist/
+
+# User specific bazel settings
+.bazelrc.user
+
+.notes.md
+baseline.json
